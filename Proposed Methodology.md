@@ -17,9 +17,6 @@ In the first phase, an automated agricultural monitoring system will be develope
 | Power Supply            | Raspberry Pi 4 Official Power Supply (USB‑C 5.1 V, 15.3 W, White) | [Raspberry Pi 4 Power Supply](https://core-electronics.com.au/raspberry-pi-4-official-power-supply-usb-c-5v-15w-white.html) | 11.90           |
 
 **Subtotal:** **AUD 256.50**
-
-This hardware configuration provides sufficient computing capability for on-board data acquisition and preliminary processing, while remaining cost-effective and modular for extension with additional sensors if required.
-
 ---
 
 ## Phase 2 – Data Transmission, Web-Based Monitoring and System Control
@@ -70,4 +67,5 @@ To support flexible and experiment-specific data collection, the system will all
 
 This mechanism ensures that the monitoring strategy can be adapted in real time (for example, increasing image frequency during critical growth stages or under stress conditions) without requiring physical access to the device.
 
+Example of a web-based agricultural monitoring dashboard
 ![Example of a web-based agricultural monitoring dashboard](./images/1_reference%20example.png)
