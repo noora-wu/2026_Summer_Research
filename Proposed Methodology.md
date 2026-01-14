@@ -31,13 +31,12 @@ The key objectives are to:
 
 ### 2.1 Data Upload and Storage
 
-The Raspberry Pi will periodically transmit collected data to the web server using standard HTTP-based communication (e.g., RESTful APIs). Environmental sensor data will be stored in a structured database (such as PostgreSQL or MySQL), while image data will be stored as files on the server, with metadata (e.g., timestamp and associated sensor readings) recorded in the database.
+The Raspberry Pi will periodically transmit collected data to the web server using standard HTTP-based communication. Environmental sensor data will be stored in a structured database, while image data will be stored as files on the server, with metadata recorded in the database.
 
 Each data record will include:
 
 - Timestamp of acquisition  
 - Environmental measurements (temperature, humidity, light intensity)  
-- Reference to the corresponding image file (where applicable)  
 
 This design ensures that environmental conditions and visual observations can be linked and retrieved efficiently for subsequent analysis.
 
@@ -51,7 +50,9 @@ A web-based dashboard will be developed to provide an intuitive interface for re
 - **Display of the most recent captured image**, providing an up-to-date visual view of the monitored trees.  
 - **Access to historical image data**, enabling visual inspection of plant growth and canopy development over time.  
 
-The interface will be designed to be responsive and user-friendly, accessible from both desktop and mobile devices.
+The interface will be designed to be responsive and user-friendly, accessible from both desktop and mobile devices. Example of an agricultural monitoring dashboard:
+
+![images](./images/1_reference%20example.png)
 
 ---
 
@@ -65,7 +66,12 @@ To support flexible and experiment-specific data collection, the system will all
   - Modifying scheduled tasks (e.g., using `cron`), or  
   - Adjusting the internal timing logic within the acquisition software.
 
-This mechanism ensures that the monitoring strategy can be adapted in real time (for example, increasing image frequency during critical growth stages or under stress conditions) without requiring physical access to the device.
+This mechanism ensures that the monitoring strategy can be adapted in real time without requiring physical access to the device.
 
-Example of a web-based agricultural monitoring dashboard
-![Example of a web-based agricultural monitoring dashboard](./images/1_reference%20example.png)
+## Phase 3 - AI-Based Data Analysis
+The objective of Phase 3 is to extend the monitoring system with artificial intelligence techniques to automatically analyze plant growth patterns and explore the relationship between environmental conditions and fruit tree development.
+
+### 3.1 Image-Based Plant Growth Analysis
+Extracting quantitative growth indicators from Phases 1 and 2.
+### 3.2 Environmental Data Analysis
+In parallel with image analysis, environmental sensor data will be examined to characterise growing conditions and their variability across the monitoring period.
