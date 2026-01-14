@@ -1,5 +1,5 @@
 # 2026_Summer_Research
-# Automated acquisition of fruit tree growth data
+## Automated acquisition of fruit tree growth data
 
 ## Project Background and Motivation
 The analysis of fruit tree growth data is essential for understanding plant physiology, growth dynamics, and phenological development. Such data can also be used to parameterize mathematical and data-driven models of fruit tree growth.
