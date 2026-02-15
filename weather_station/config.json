@@ -1,0 +1,5 @@
+{
+  "enabled": true,
+  "photos_per_day": 3,
+  "photo_times": ["8:00", "14:00", "20:00"]
+}
